@@ -4,6 +4,15 @@
 public class Query
 {
     /// <summary>
+    /// Returns a greeting message.
+    /// This is a simple query to demonstrate the GraphQL setup.
+    /// </summary> <summary>
+    public string Hello()
+    {
+        return "Hello world";
+    }
+
+    /// <summary>
     /// Gets all books from the library.
     /// </summary>
     /// <returns>A collection of all books in the library.</returns>
