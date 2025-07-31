@@ -121,6 +121,21 @@ query {
 }
 ```
 
+### Query a specific book by ID:
+```graphql
+query {
+  book(id: 1) {
+    id
+    title
+    description
+    author {
+      id
+      name
+    }
+  }
+}
+```
+
 ### Query all authors:
 ```graphql
 query {
